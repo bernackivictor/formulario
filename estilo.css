@@ -1,0 +1,49 @@
+ul{
+    display: inline-block;
+
+    color: black;
+    margin: 0;
+    padding: 5px;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#selector{
+    background-color: rgb(9, 9, 241);
+    padding: 5px;
+}
+img{
+    height: 400px;
+    width: 100%;
+
+}
+body{
+    background: url(imagenes/hotel-termas-rosario-frontera-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+h1{
+    font-family: serif;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+        background-color: none;
+        position: relative;
+        left: 500px;
+        margin: 10px;
+        padding: 10px 20px 10px 25px;
+        font-size: 30px;
+        color: antiquewhite;
+}
+#barra{
+    background-color: black;
+}
+a{
+    color: aliceblue;
+    font-style: normal;
+    
+}

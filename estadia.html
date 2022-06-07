@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estadia</title>
+    <link rel="stylesheet" href="estadia.css">
+</head>
+<header>
+    <h1>Hoteleria y Estadias</h1>
+</header>
+<body>
+    <form action="https://formspree.io/f/xpzbbkad" method="post">
+    <div>
+        <label for="Tipo"> Tipo
+            <select name="Tipo" id=""> 
+                <option value="hoteles">hoteles</option>
+                <option value="casas">casas para alquilar</option>
+                <option value="acampar">lugares para acampar</option>
+            </select>
+    </div>
+    <div id="lugares">
+        <label for=""> Estrellas
+            <select name="estrellas" id=""> 
+                <option value="1">1 estrella</option>
+                <option value="2">2 estrellas</option>
+                <option value="3">3 estrellas</option>
+                <option value="4">4 estrella</option>
+                <option value="5">5 estrellas</option>
+                <option value="de 1 a 3">de 1 a 3 estrellas</option>
+                <option value="de 3 a 5">de 3 a 5 estrellas</option>
+                <option value="de 1 a 5">de 1 a 5 estrellas</option>
+            </select>
+        </label>
+            <br>
+            <label for="">Preferencias de lugares
+                <select name="lugares" id="">
+                    <option value="cerca del centro">cerca de la plaza principal</option>
+                    <option value=" mas alejado y tranquilo">medianamente cerca(pero un poco mas tranquilo)</option>
+                    <option value=" alejado ">alejado del pueblo (mas tranquilo)</option>
+                </select>
+            </label>
+            <br>
+            <label for="">habitacion
+                <select name="cant de personas" id="">
+                    <option value="1">1 persona</option>
+                    <option value="2">2 personas</option>
+                    <option value="4">4 personas</option>
+                </select>
+            </label>
+            <br>
+            <label for="duracion de estadia">duracion de la estadia
+                llegada<input type="text" placeholder="--/--/--">
+                salida<input type="text" placeholder="--/--/--">
+            </label>
+      </div>
+      <br>
+      <br>
+      <label for="precio">
+          <h1>precio</h1>
+          desde<input type="text" placeholder="$ 000">
+          hasta<input type="text" placeholder="$ 999">
+      </label>
+      <br>
+      <br>
+    <label for="descripcion">alguna descripcion especifica del lugar
+        <input type="text" placeholder="(opcional)">
+    </label>
+    <br>
+    <br>
+    <input type="reset" value="reset" class="boton">
+    <input type="submit" name="enviar" class="boton">
+</form>
+</body>
+</html>

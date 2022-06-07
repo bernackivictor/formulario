@@ -1,0 +1,39 @@
+label{
+    display: block;
+    padding: 10px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+fieldset{
+    background-color: rgb(58, 53, 53);
+    color: white;
+}
+input{
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flow-root;
+}
+#lugares{
+    background-color: rgb(58, 53, 53);
+    display: flow-root;
+    color: white;
+
+}
+select{
+    background-color: rgb(255, 255, 255);
+}
+h4,h5{
+    font-size: 20px;
+    font-style: oblique;
+}
+.boton{
+    display: inline-block;
+    background-color: rgb(58, 53, 53);
+    color: white;
+}
+h1{
+    text-align: center;
+}
